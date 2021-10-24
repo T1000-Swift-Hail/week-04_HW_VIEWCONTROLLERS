@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         luck.layer.cornerRadius = 14
     }
 
-    @IBAction func showMyLuck (_sender: Any
-    ){
+    @IBAction func showMyLuck(_ sender: Any) {
+  
         let random = Int.random(in: 0..<luckPhrases.count)
         myLuck.text = "\(luckPhrases[random])"
         
