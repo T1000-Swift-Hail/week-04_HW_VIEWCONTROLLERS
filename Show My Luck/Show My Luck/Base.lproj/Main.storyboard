@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Show_My_Luck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KSNFdi" translatesAutoresizingMaskIntoConstraints="NO" id="LYl-6T-GVo">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddv-Zx-yEk">
+                                <rect key="frame" x="108" y="509" width="212" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="gTV-HF-Fos"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show My Luck" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="27"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="showMyLuck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CyG-Dh-XX8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try Your Luck!! click the button" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fs2-Q0-Cai">
+                                <rect key="frame" x="20" y="409" width="388" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" systemColor="systemPurpleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LYl-6T-GVo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FPJ-kI-SJO"/>
+                            <constraint firstItem="Ddv-Zx-yEk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FuJ-3e-AZW"/>
+                            <constraint firstItem="LYl-6T-GVo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SFW-oP-oHD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ddv-Zx-yEk" secondAttribute="bottom" constant="316" id="TO3-pY-5st"/>
+                            <constraint firstItem="LYl-6T-GVo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tqa-Qu-VuI"/>
+                            <constraint firstItem="LYl-6T-GVo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WGu-WD-dUE"/>
+                            <constraint firstItem="Ddv-Zx-yEk" firstAttribute="top" secondItem="fs2-Q0-Cai" secondAttribute="bottom" constant="71" id="ZPN-ou-H9G"/>
+                            <constraint firstItem="Ddv-Zx-yEk" firstAttribute="centerX" secondItem="fs2-Q0-Cai" secondAttribute="centerX" id="d9V-Fp-S6l"/>
+                            <constraint firstItem="fs2-Q0-Cai" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fXp-yY-zbx"/>
+                            <constraint firstAttribute="trailing" secondItem="LYl-6T-GVo" secondAttribute="trailing" id="gD0-Nx-fUQ"/>
+                            <constraint firstAttribute="bottom" secondItem="LYl-6T-GVo" secondAttribute="bottom" id="q2v-7P-gNo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myLuck" destination="fs2-Q0-Cai" id="SSG-pr-rZq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KSNFdi" width="1920" height="1080"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
