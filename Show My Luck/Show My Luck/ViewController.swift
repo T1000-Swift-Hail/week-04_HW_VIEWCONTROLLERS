@@ -20,11 +20,10 @@ class ViewController: UIViewController {
         myLuck.numberOfLines = 4
         myLuck.lineBreakMode = .byWordWrapping
         
-        
     }
 let luckPhrases = ["You will be the best SWIFT developer", "You look great !", "Wonderful things are ahead of you", "Use your imagination more", "A lot of people depend on you. You are up to it!"]
 
-    @IBAction func showMyLuck(_ sender:UIButton) {
+    @IBAction func showMyLuck(_ sender: UIButton) {
 
     let random = Int.random(in: 0..<luckPhrases.count)
 

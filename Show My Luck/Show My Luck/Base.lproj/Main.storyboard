@@ -20,13 +20,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR LUCK IS ......" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51R-n2-f3z">
-                                <rect key="frame" x="25" y="314" width="340" height="81"/>
+                                <rect key="frame" x="25" y="314" width="340" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yl-Pq-9KJ">
-                                <rect key="frame" x="97" y="429" width="196" height="76"/>
+                                <rect key="frame" x="97" y="368.33333333333331" width="196" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=" Show My Luck" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -46,12 +46,10 @@
                             <constraint firstItem="51R-n2-f3z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="8hb-mf-UEt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Yl-Pq-9KJ" secondAttribute="trailing" constant="97" id="DhO-jm-lq7"/>
                             <constraint firstItem="2Yl-Pq-9KJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K5e-t4-7CB"/>
-                            <constraint firstItem="2Yl-Pq-9KJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="45" id="Kjs-3M-oe4"/>
                             <constraint firstItem="51R-n2-f3z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="270" id="Tac-7F-Vt1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="51R-n2-f3z" secondAttribute="trailing" constant="25" id="VSc-L5-pO7"/>
                             <constraint firstItem="ACQ-Ng-EKv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Yrg-p2-68p"/>
                             <constraint firstItem="2Yl-Pq-9KJ" firstAttribute="top" secondItem="51R-n2-f3z" secondAttribute="bottom" constant="34" id="e1X-DB-OoU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Yl-Pq-9KJ" secondAttribute="bottom" constant="305" id="iev-nm-TxE"/>
                             <constraint firstAttribute="trailing" secondItem="ACQ-Ng-EKv" secondAttribute="trailing" id="j1u-v0-PNj"/>
                             <constraint firstAttribute="bottom" secondItem="ACQ-Ng-EKv" secondAttribute="bottom" id="ltk-Kx-yd5"/>
                             <constraint firstItem="ACQ-Ng-EKv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qtg-ue-CYf"/>
