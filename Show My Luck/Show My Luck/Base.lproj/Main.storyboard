@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="run-rU-uzc">
-                                <rect key="frame" x="136" y="406" width="118" height="32"/>
+                                <rect key="frame" x="136" y="376" width="118" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show my Luck" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
@@ -40,15 +40,13 @@
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
                             <constraint firstItem="JuY-Fq-DHr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="221" id="9rS-aP-se5"/>
+                            <constraint firstItem="run-rU-uzc" firstAttribute="top" secondItem="JuY-Fq-DHr" secondAttribute="bottom" constant="90" id="Jux-5d-CcD"/>
                             <constraint firstItem="run-rU-uzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j5M-KH-mSZ"/>
-                            <constraint firstItem="run-rU-uzc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lHS-sn-Djt"/>
                             <constraint firstItem="JuY-Fq-DHr" firstAttribute="centerX" secondItem="run-rU-uzc" secondAttribute="centerX" id="t6m-IR-mK1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="run-rU-uzc" secondAttribute="bottom" constant="372" id="zhX-MZ-nQf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myLuck" destination="run-rU-uzc" id="Dfm-wh-FQF"/>
-                        <outlet property="ourLabel" destination="JuY-Fq-DHr" id="qvg-WW-nTT"/>
+                        <outlet property="myLock" destination="JuY-Fq-DHr" id="KZe-IU-IHY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
