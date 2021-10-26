@@ -8,11 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var MyLuck: UILabel!
     
     var luckPhrases = ["You will be the best SWIFT developer", "You look great !", "Wonderful things are ahead of you", "Use your imagination more", "A lot of people depend on you. You are up to it!"]
-
+    var random = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,16 +21,16 @@ class ViewController: UIViewController {
         MyLuck.numberOfLines = 4
         MyLuck.lineBreakMode = .byWordWrapping
         
-     
+        
         
         // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func ShowMyLuck(_ sender: Any) {
         
         let random = Int.random(in: 0..<luckPhrases.count)
         MyLuck.text = luckPhrases[random]
     }
- 
+    
 }
 
